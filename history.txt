@@ -1,0 +1,19 @@
+   0 pwd
+   1 ls /
+   2 mkdir /home/animals
+   3 mkdir /home/animals/dogs
+   4 mkdir /home/animals/cats
+   5 mkdir /home/animals/fish
+   6 ls /home
+   7 ls /home/animals/
+   8 touch /home/animals/dogs/pluto.txt
+   9 touch /home/animals/cats/garfield.txt
+  10 touch /home/animals/fish/nemo.txt
+  11 > /tmp/adam.txt
+  12 mkdir /home/humans
+  13 cp /tmp/adam.txt /home/humans/
+  14 > /tmp/evA.txt
+  15 mv /tmp/evA.txt /opt/eve.txt
+  16 mv /opt/eve.txt /home/humans/
+  17 ls -l /home/humans/
+
