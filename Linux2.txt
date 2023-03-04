@@ -1,0 +1,15 @@
+   0 ls -l /home/
+   1 mkdir -p /home/user/start
+   2 tree /home/
+   3 touch /home/user/start/1.txt
+   4 ls -l /home/user/start/
+   5 echo "start" >> /home/user/start/1.txt 
+   6 cat /home/user/start/1.txt 
+   7 date >> /home/user/start/1.txt 
+   8 cat /home/user/start/1.txt 
+   9 mkdir /opt/task
+  10 cp /home/user/start/1.txt /opt/task/start.txt
+  11 cat /opt/task/start.txt 
+  12 ls -al / | tail -4 >> /opt/task/start.txt 
+  13 cat /opt/task/start.txt 
+  14 history > Linux2.txt
